@@ -13,6 +13,7 @@ Every Ruvelo package installs in one command, works without a build step, and co
 | **[Laravel Comments](https://github.com/Ruvelo/laravel-comments)** | Free, polished comments for any model: threads, reactions, Markdown, moderation. Blade, Livewire or Inertia. [Live demo](https://ruvelo.github.io/laravel-comments/) |
 | **[Laravel Help Center](https://github.com/Ruvelo/laravel-help-center)** | A public help centre for your customers: searchable articles, categories, "was this helpful?" and an editor. [Live demo](https://ruvelo.github.io/laravel-help-center/) |
 | **[Laravel Translations](https://github.com/Ruvelo/laravel-translations)** | Manage your translations in the browser: missing keys, placeholder checks, and editing in context. No dependencies beyond Laravel. [Live demo](https://ruvelo.github.io/laravel-translations/) |
+| **[Laravel Feedback](https://github.com/Ruvelo/laravel-feedback)** | A feedback board, public roadmap and changelog: users vote, you ship, and voters hear about it. [Live demo](https://ruvelo.github.io/laravel-feedback/) |
 
 ### Contributing
 
