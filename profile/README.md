@@ -8,7 +8,10 @@ Every Ruvelo package installs in one command, works without a build step, and co
 
 | | |
 |---|---|
-| **[Laravel Wiki](https://github.com/Ruvelo/laravel-wiki)** | A drop-in wiki for your Laravel app: Markdown pages, `[[links]]`, full history, a JSON API and Obsidian import. [Live demo](https://ruvelo.github.io/laravel-wiki/demo/) |
+| **[Laravel Wiki](https://github.com/Ruvelo/laravel-wiki)** | A drop-in wiki for your team: Markdown pages, `[[links]]`, full history, a JSON API and Obsidian import. [Live demo](https://ruvelo.github.io/laravel-wiki/) |
+| **[Laravel Inbox](https://github.com/Ruvelo/laravel-inbox)** | The notification inbox Laravel never shipped: a bell, an inbox page and per-user preferences, on the notifications you already send. [Live demo](https://ruvelo.github.io/laravel-inbox/) |
+| **[Laravel Comments](https://github.com/Ruvelo/laravel-comments)** | Free, polished comments for any model: threads, reactions, Markdown, moderation. Blade, Livewire or Inertia. [Live demo](https://ruvelo.github.io/laravel-comments/) |
+| **[Laravel Help Center](https://github.com/Ruvelo/laravel-help-center)** | A public help centre for your customers: searchable articles, categories, "was this helpful?" and an editor. [Live demo](https://ruvelo.github.io/laravel-help-center/) |
 
 ### Contributing
 
