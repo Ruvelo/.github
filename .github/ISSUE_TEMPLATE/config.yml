@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/orgs/Ruvelo/discussions
+    about: How-to questions and ideas go in Discussions.
+  - name: Report a security problem
+    url: https://github.com/Ruvelo/.github/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately.

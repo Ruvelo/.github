@@ -1,0 +1,127 @@
+/*
+ * Ruvelo house style: design tokens.
+ *
+ * Drop this file into any Ruvelo app or site and build on the variables.
+ * Clean and modern, with one signature: ultramarine, its lilac glow, and
+ * neutrals tinted toward them. Light and dark follow the system setting;
+ * set data-theme="light" or "dark" on <html> to force one.
+ *
+ * Packages that render inside other people's apps copy these values into
+ * their own prefixed variables (e.g. --wiki-accent) instead of loading this.
+ */
+
+:root {
+    /* Brand */
+    --rv-ultramarine: #3d4eff;
+    --rv-lilac: #a78bfa;
+    --rv-gradient: linear-gradient(135deg, var(--rv-ultramarine), var(--rv-lilac));
+
+    /* Surfaces, from the page outward */
+    --rv-bg: #ffffff;
+    --rv-subtle: #f8f8fc;
+    --rv-muted: #f0f0f7;
+    --rv-line: #e4e4ef;
+    --rv-night: #11111c;            /* dark bands on light pages */
+
+    /* Text */
+    --rv-text: #16162a;
+    --rv-text-2: #4b4b63;
+    --rv-text-3: #74748b;
+
+    /* Interactive */
+    --rv-accent: var(--rv-ultramarine);
+    --rv-accent-hover: #2b38d6;
+    --rv-accent-soft: #eef0ff;
+    --rv-on-accent: #ffffff;
+
+    /* Status */
+    --rv-danger: #e5384f;
+    --rv-danger-soft: #fdecef;
+    --rv-success: #167a4a;
+    --rv-success-soft: #e8f8ef;
+    --rv-warning: #b26a00;
+    --rv-warning-soft: #fff4e0;
+
+    /* Type */
+    --rv-font: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --rv-font-mono: "Geist Mono", ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+    --rv-tracking-tight: -0.02em;   /* headings */
+    --rv-tracking-display: -0.045em; /* hero headlines */
+
+    /* Shape */
+    --rv-radius: 8px;               /* controls */
+    --rv-radius-lg: 14px;           /* panels, cards, code */
+    --rv-radius-full: 999px;        /* chips, avatars */
+    --rv-shadow-accent: 0 8px 20px -10px color-mix(in srgb, var(--rv-accent) 80%, transparent);
+    --rv-glow: 0 24px 60px -32px color-mix(in srgb, var(--rv-accent) 60%, transparent);
+
+    /* Rhythm */
+    --rv-space-1: 0.25rem;
+    --rv-space-2: 0.5rem;
+    --rv-space-3: 0.75rem;
+    --rv-space-4: 1rem;
+    --rv-space-6: 1.5rem;
+    --rv-space-8: 2rem;
+    --rv-space-12: 3rem;
+    --rv-space-16: 4rem;
+    --rv-content: 52rem;            /* reading width */
+    --rv-wide: 72rem;               /* page width */
+
+    color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        --rv-bg: #11111c;
+        --rv-subtle: #171725;
+        --rv-muted: #1f1f30;
+        --rv-line: #2a2a3f;
+        --rv-night: #0b0b14;
+        --rv-text: #f1f1f8;
+        --rv-text-2: #b6b6cc;
+        --rv-text-3: #8787a3;
+        --rv-accent: #8f9bff;
+        --rv-accent-hover: #b3bbff;
+        --rv-accent-soft: #1e2150;
+        --rv-on-accent: #0b0b1a;
+        --rv-danger: #ff6b80;
+        --rv-danger-soft: #331520;
+        --rv-success: #74d6a2;
+        --rv-success-soft: #0f2b1f;
+        --rv-warning: #ffc266;
+        --rv-warning-soft: #2e2210;
+        color-scheme: dark;
+    }
+}
+
+:root[data-theme="dark"] {
+    --rv-bg: #11111c;
+    --rv-subtle: #171725;
+    --rv-muted: #1f1f30;
+    --rv-line: #2a2a3f;
+    --rv-night: #0b0b14;
+    --rv-text: #f1f1f8;
+    --rv-text-2: #b6b6cc;
+    --rv-text-3: #8787a3;
+    --rv-accent: #8f9bff;
+    --rv-accent-hover: #b3bbff;
+    --rv-accent-soft: #1e2150;
+    --rv-on-accent: #0b0b1a;
+    --rv-danger: #ff6b80;
+    --rv-danger-soft: #331520;
+    --rv-success: #74d6a2;
+    --rv-success-soft: #0f2b1f;
+    --rv-warning: #ffc266;
+    --rv-warning-soft: #2e2210;
+    color-scheme: dark;
+}
+
+/* The signature: a 3px brand stripe across the top of every app. */
+.rv-stripe::before {
+    content: "";
+    position: fixed;
+    inset: 0 0 auto;
+    height: 3px;
+    z-index: 100;
+    background: linear-gradient(90deg, var(--rv-ultramarine), var(--rv-lilac));
+}
