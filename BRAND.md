@@ -13,6 +13,27 @@ This guide is the reference. The tokens live in [`brand/ruvelo.css`](brand/ruvel
 3. **Developers first, never developer-only.** Typed APIs, clear errors and real docs, wrapped in something a non-developer would happily click around.
 4. **Say less, mean it.** Plain words, active voice, no hype.
 
+## Logo
+
+<p><img src="brand/board.png" alt="The Ruvelo identity: logo, mark sizes and variants, colours, type and product lockups" width="100%"></p>
+
+The mark is a rounded *r* and a dot on the ultramarine-to-lilac gradient. The dot is the signature: it reads as a full stop, and as the dot of a notification. The wordmark is *ruvelo.* in Geist SemiBold, lowercase, ending in the same dot in ultramarine (the lighter `#8F9BFF` on dark). The letters are outlines, so the logo looks the same everywhere without loading a font.
+
+| File | Use |
+|---|---|
+| [`brand/logo.svg`](brand/logo.svg) | Primary logo on light backgrounds |
+| [`brand/logo-white.svg`](brand/logo-white.svg) | On dark or photo backgrounds |
+| [`brand/mark.svg`](brand/mark.svg) | The mark alone: favicons, avatars, app icons |
+| [`brand/mark-inverse.svg`](brand/mark-inverse.svg) | The mark on the brand gradient or ultramarine |
+| [`brand/mark-night.svg`](brand/mark-night.svg) | The mark on very dark backgrounds |
+| [`brand/wordmark.svg`](brand/wordmark.svg), [`wordmark-white.svg`](brand/wordmark-white.svg) | The name alone, e.g. "by ruvelo." |
+| [`brand/avatar.png`](brand/avatar.png) | 512×512 for GitHub, X and Packagist profiles |
+
+- Leave clear space around the logo of at least the height of the dot's circle times three.
+- The mark works down to 16px; below 24px, prefer it to the full logo.
+- Don't recolour, stretch, outline or add effects to the logo, and don't set "ruvelo" in another typeface.
+- Products pair their own initial in the gradient square with their name and "by ruvelo.", as on the board.
+
 ## Colour
 
 | Token | Light | Dark | Use |
@@ -44,7 +65,7 @@ Neutrals lean slightly toward indigo, never pure grey, so even quiet screens car
 These make a screen recognisably Ruvelo. Use them, and don't add others.
 
 - **The stripe:** a 3px ultramarine-to-lilac bar across the top of every app (`.rv-stripe`).
-- **The mark:** a gradient rounded square. Products show their own initial in it; Ruvelo shows the geometric *r*.
+- **The mark:** a gradient rounded square holding a rounded *r* and a dot. Products show their own initial in it; Ruvelo shows the *r·*.
 - **Primary buttons in ultramarine** with a soft coloured shadow. Secondary buttons are outlined in `--rv-line`.
 - **Tinted panels:** helpful asides (a table of contents, related links, tips) sit on `--rv-accent-soft` with an ultramarine label.
 - **Chips and avatars:** fully rounded, accent-soft background, accent text. People show as their initials.
