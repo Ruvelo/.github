@@ -14,6 +14,7 @@ Every Ruvelo package installs in one command, works without a build step, and co
 | **[Laravel Help Center](https://github.com/Ruvelo/laravel-help-center)** | A public help centre for your customers: searchable articles, categories, "was this helpful?" and an editor. [Live demo](https://ruvelo.github.io/laravel-help-center/) |
 | **[Laravel Translations](https://github.com/Ruvelo/laravel-translations)** | Manage your translations in the browser: missing keys, placeholder checks, and editing in context. No dependencies beyond Laravel. [Live demo](https://ruvelo.github.io/laravel-translations/) |
 | **[Laravel Feedback](https://github.com/Ruvelo/laravel-feedback)** | A feedback board, public roadmap and changelog: users vote, you ship, and voters hear about it. [Live demo](https://ruvelo.github.io/laravel-feedback/) |
+| **[Laravel Device](https://github.com/Ruvelo/laravel-device)** | Device, browser, system and bot detection, AI crawlers included. The maintained successor to jenssegers/agent. [Live demo](https://ruvelo.github.io/laravel-device/) |
 
 ### Contributing
 
