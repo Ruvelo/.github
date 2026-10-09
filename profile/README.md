@@ -24,4 +24,4 @@ Issues and pull requests are welcome on every repo. Each has a `CONTRIBUTING.md`
 
 ---
 
-Ruvelo is [François Bultez](https://github.com/francoisbultez)'s studio. Our [house style](https://github.com/Ruvelo/.github/blob/main/BRAND.md) is open too.
+Ruvelo is made by [Valtry](https://valtry.co.uk/?utm_source=ruvelo&utm_medium=github&utm_campaign=org-profile), the website security scanner. Our [house style](https://github.com/Ruvelo/.github/blob/main/BRAND.md) is open too.
