@@ -35,6 +35,7 @@ Issues and pull requests are welcome on every repo. Each has a `CONTRIBUTING.md`
 | Extension | What it does |
 |---|---|
 | **[Magento 2 Security Alerts](https://github.com/Ruvelo/magento2-security-alerts)** | Know the day your store or an extension becomes vulnerable, exploited flaws first. Magento 2.4.7+ and Mage-OS. |
+| **[PrestaShop Security Alerts](https://github.com/Ruvelo/prestashop-security-alerts)** | PrestaShop 8 and 9: core, PrestaShop modules and Friends of Presta advisories, in the back office and by email. |
 | **[Craft Security Alerts](https://github.com/Ruvelo/craft-security-alerts)** | The same for Craft CMS 5: Craft and every plugin, in the control panel and by email. |
 | **[Statamic Security Alerts](https://github.com/Ruvelo/statamic-security-alerts)** | Laravel Security Alerts in the Statamic control panel, Statamic 5 and 6. |
 | **[Symfony Security Alerts](https://github.com/Ruvelo/symfony-security-alerts)** | A Symfony bundle: Notifier alerts, a Scheduler task and a profiler panel, exploited flaws first. |
