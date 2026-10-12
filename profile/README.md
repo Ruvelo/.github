@@ -36,6 +36,7 @@ Issues and pull requests are welcome on every repo. Each has a `CONTRIBUTING.md`
 |---|---|
 | **[Magento 2 Security Alerts](https://github.com/Ruvelo/magento2-security-alerts)** | Know the day your store or an extension becomes vulnerable, exploited flaws first. Magento 2.4.7+ and Mage-OS. |
 | **[Craft Security Alerts](https://github.com/Ruvelo/craft-security-alerts)** | The same for Craft CMS 5: Craft and every plugin, in the control panel and by email. |
+| **[Statamic Security Alerts](https://github.com/Ruvelo/statamic-security-alerts)** | Laravel Security Alerts in the Statamic control panel, Statamic 5 and 6. |
 | **[Security Advisories](https://github.com/Ruvelo/security-advisories)** | The framework-agnostic PHP core behind the security alerts: lock files against Packagist, OSV and CISA KEV. |
 
 Ruvelo is made by [Valtry](https://valtry.co.uk/?utm_source=ruvelo&utm_medium=github&utm_campaign=org-profile), the website security scanner. Our [house style](https://github.com/Ruvelo/.github/blob/main/BRAND.md) is open too.
