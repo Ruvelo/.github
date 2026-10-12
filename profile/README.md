@@ -17,6 +17,7 @@ Every Ruvelo package installs in one command, works without a build step, and co
 | **[Laravel Feedback](https://github.com/Ruvelo/laravel-feedback)** | A feedback board, public roadmap and changelog: users vote, you ship, and voters hear about it. [Live demo](https://ruvelo.github.io/laravel-feedback/) |
 | **[Laravel Device](https://github.com/Ruvelo/laravel-device)** | Device, browser, system and bot detection, AI crawlers included. The maintained successor to jenssegers/agent. [Live demo](https://ruvelo.github.io/laravel-device/) |
 | **[Laravel Security Alerts](https://github.com/Ruvelo/laravel-security-alerts)** | Alerts the day a package your app runs becomes vulnerable, exploited flaws first. [Live demo](https://ruvelo.github.io/laravel-security-alerts/) |
+| **[Filament Security Alerts](https://github.com/Ruvelo/filament-security-alerts)** | Laravel Security Alerts in your Filament panel, with a dashboard widget. [Live demo](https://ruvelo.github.io/filament-security-alerts/) |
 | **[Ruvelo Feedback](https://github.com/Ruvelo/wp-feedback)** for WordPress | A feedback board, public roadmap and changelog. No upsells. [Try it in Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/Ruvelo/wp-feedback/main/blueprint.json) |
 | **[Ruvelo Inbox](https://github.com/Ruvelo/wp-inbox)** for WordPress | A notification bell and inbox, with per-person preferences. No upsells. [Try it in Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/Ruvelo/wp-inbox/main/blueprint.json) |
 | **[Ruvelo Comment Subscriptions](https://github.com/Ruvelo/wp-comment-subscriptions)** for WordPress | Readers follow comments by email, with double opt-in and one-click unsubscribe. [Try it in Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/Ruvelo/wp-comment-subscriptions/main/blueprint.json) |
@@ -28,5 +29,13 @@ Every Ruvelo package installs in one command, works without a build step, and co
 Issues and pull requests are welcome on every repo. Each has a `CONTRIBUTING.md`, and `composer check` runs exactly what CI runs. Please read the [code of conduct](https://github.com/Ruvelo/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ---
+
+### More platforms
+
+| Extension | What it does |
+|---|---|
+| **[Magento 2 Security Alerts](https://github.com/Ruvelo/magento2-security-alerts)** | Know the day your store or an extension becomes vulnerable, exploited flaws first. Magento 2.4.7+ and Mage-OS. |
+| **[Craft Security Alerts](https://github.com/Ruvelo/craft-security-alerts)** | The same for Craft CMS 5: Craft and every plugin, in the control panel and by email. |
+| **[Security Advisories](https://github.com/Ruvelo/security-advisories)** | The framework-agnostic PHP core behind the security alerts: lock files against Packagist, OSV and CISA KEV. |
 
 Ruvelo is made by [Valtry](https://valtry.co.uk/?utm_source=ruvelo&utm_medium=github&utm_campaign=org-profile), the website security scanner. Our [house style](https://github.com/Ruvelo/.github/blob/main/BRAND.md) is open too.
